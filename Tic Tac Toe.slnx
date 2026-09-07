@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="README.md" />
+  </Folder>
+  <Project Path="Tic Tac Toe/Tic Tac Toe.csproj" />
+  <Project Path="TicTacToe.Api.Tests/TicTacToe.Api.Tests.csproj" />
+  <Project Path="TicTacToe.UI/TicTacToe.UI.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+</Solution>
