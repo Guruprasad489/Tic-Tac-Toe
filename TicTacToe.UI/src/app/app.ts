@@ -24,7 +24,7 @@ import { GameResponse, Player, GameMode, GameStatus, MoveRequest } from './model
   template: `
     <div class="app-container">
       <header class="app-header">
-        <h1>🎮 Tic Tac Toe</h1>
+        <h4>🎮 Tic Tac Toe</h4>
         <p class="subtitle">Play against a friend or the computer!</p>
       </header>
 
@@ -74,16 +74,16 @@ import { GameResponse, Player, GameMode, GameStatus, MoveRequest } from './model
     }
 
     .app-header {
-      padding: 2rem;
+      padding: 1rem;
       text-align: center;
       color: white;
       background-color: rgba(0, 0, 0, 0.1);
       border-bottom: 3px solid rgba(255, 255, 255, 0.2);
     }
 
-    .app-header h1 {
+    .app-header h4 {
       margin: 0;
-      font-size: 36px;
+      font-size: 24px;
       font-weight: bold;
     }
 
@@ -97,7 +97,7 @@ import { GameResponse, Player, GameMode, GameStatus, MoveRequest } from './model
       flex: 1;
       display: flex;
       gap: 2rem;
-      padding: 2rem;
+      padding: 1rem;
       max-width: 1200px;
       margin: 0 auto;
       width: 100%;
@@ -118,7 +118,7 @@ import { GameResponse, Player, GameMode, GameStatus, MoveRequest } from './model
       width: 350px;
       display: flex;
       flex-direction: column;
-      gap: 1.5rem;
+      gap: 1rem;
     }
 
     .sidebar > * {
@@ -129,7 +129,7 @@ import { GameResponse, Player, GameMode, GameStatus, MoveRequest } from './model
 
     .app-footer {
       text-align: center;
-      padding: 1.5rem;
+      padding: 1rem;
       background-color: rgba(0, 0, 0, 0.2);
       color: rgba(255, 255, 255, 0.8);
       border-top: 1px solid rgba(255, 255, 255, 0.2);
